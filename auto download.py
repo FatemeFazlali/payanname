@@ -83,7 +83,7 @@ def main():
             for row in reader:
                 new_sequences.add(row[0])
 
-    # URL of the server address
+    # URL of the server address to get the new pdb files of new proteins 
     server_url = 'http://example.com/path/to/files/'
 
     # Directory where you want to save the files
